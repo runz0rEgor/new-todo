@@ -1,0 +1,88 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  color: #4d4d4d;
+  background: #f5f5f5; }
+
+button,
+input,
+form,
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: inherit; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 5px;
+  text-align: center; }
+
+.title {
+  font-size: 100px;
+  font-weight: 100;
+  color: rgba(175, 47, 47, 0.15);
+  padding-top: 200px; }
+
+.todo__list {
+  text-align: start; }
+  .todo__list .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px 15px 60px;
+    word-break: break-all;
+    background-color: #fff;
+    border-top: 1px solid #e6e6e6;
+    position: relative; }
+    .todo__list .list-item .label.checked {
+      text-decoration: line-through; }
+
+.filters {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  padding: 10px 15px;
+  color: #777;
+  border-top: 1px solid #e6e6e6;
+  background-color: #fff; }
+  .filters .clear {
+    opacity: 0; }
+  .filters .btn {
+    background: none;
+    border: 1px solid rgba(175, 47, 47, 0.2);
+    padding: 3px 7px; }
+
+.hide {
+  display: none !important; }
+
+.form {
+  box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0.03); }
+
+.form__input {
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 9px 50px 0 rgba(0, 0, 0, 0.1);
+  padding: 16px 16px 16px 60px;
+  font-size: 24px; }
+
+.todo-input {
+  position: absolute;
+  top: 21px;
+  left: 20px; }
+
+.search {
+  padding: 20px;
+  font-size: 15px; }

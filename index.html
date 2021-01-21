@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>TODOlist</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <form class="form-search">
+        <input class="search" type="text">
+      </form>
+      <h1 class="title">todos</h1>
+      <div class="form-wrapper">
+        <form class="form">
+          <label class="form__label"></label>
+          <input class="form__input" type="text" placeholder="What needs to be done?">
+        </form>
+      </div>
+      <div class="todo-wrapper">
+        <ul class="todo__list" id="list"></ul>
+      </div>
+      <footer class="footer">
+        <div class="filters">
+          <div class="counter">1 items left</div>
+          <div class="filter">
+            <button class="btn">All</button>
+            <button class="btn">Active</button>
+            <button class="btn">Completed</button>
+          </div>
+          <div class="clear">
+            <button class="btn">Clear completed</button>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

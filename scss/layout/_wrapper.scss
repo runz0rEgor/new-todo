@@ -1,0 +1,47 @@
+@import "./container";
+
+.title {
+  font-size: 100px;
+  font-weight: 100;
+  color: rgba(175, 47, 47, 0.15);
+  padding-top: 200px;
+}
+.todo__list {
+  text-align: start;
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px 15px 60px;
+    word-break: break-all;
+    background-color: #fff;
+    border-top: 1px solid #e6e6e6;
+    position: relative;
+    .label.checked {
+      text-decoration: line-through;
+    }
+  }
+}
+
+.filters {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  padding: 10px 15px;
+  color: #777;
+  border-top: 1px solid #e6e6e6;
+  background-color: #fff;
+  .clear {
+    opacity: 0;
+  }
+  .btn {
+    background: none;
+    border: 1px solid rgba(175, 47, 47, 0.2);
+    padding: 3px 7px;
+  }
+}
+
+.hide {
+  display: none !important;
+}
